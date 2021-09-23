@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Conversor de Moedas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+            Descubra os valores em dólares e euros
+        </p>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter US$</button>
+        <button type="submit" onclick="ConverterEuro()">Converter €</button>
+        <h2 id="valorConvertido"></h2>
+    </div>
+</body>
+<script src="conversor.js"></script>
+
+</html>

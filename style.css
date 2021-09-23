@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://memegenerator.net/img/instances/75709049/pega-logo-o-dinheiro.jpg");
+  background-color: #000000;
+  background-size: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 6%;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
